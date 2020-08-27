@@ -1,0 +1,41 @@
+*{
+  /* border: 1px solid grey; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(244, 248, 250, 0.858),
+      rgba(222, 227, 233, 0.851)), 
+      url(https://images.unsplash.com/photo-1524813686514-a57563d77965?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80);
+
+}
+.app-container{
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 25px;
+  width: 800px;
+  margin: 0 auto;
+  background:rgba(0, 0, 0, 0.8);
+  color: white;
+
+}
+
+
+
+h2{
+  text-align: center;
+  margin: 25px 15px;
+}
+
